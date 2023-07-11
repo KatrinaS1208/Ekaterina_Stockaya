@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <form method="post" action="https://fe.it-academy.by/TestForm.php">
+        <fieldset>
+            <legend style="height: auto; width: auto;">Контактная информация</legend>
+            Имя     <input type="text" name="im"><br>
+            Телефон <input type="text" name="tel" maxlength="10"><br>
+            Email   <input type="text" name="Email" maxlength="iv@gmail.com"><br>
+  
+        </fieldset>
+
+        <fieldset>
+            <legend>Персональная информация</legend>
+            Возраст    <input type="text"><br>
+            Пол <select name="pol">
+            <option value="1" selected>Женщина</option> 
+            <option value="2"selected>Мужчина</option> </select><br>
+            Перечислите личные качества <input type="text" size="50px"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Выберите ваших любимых животных</legend>
+            <input type="checkbox" name="Зебра">Зебра<br>
+            <input type="checkbox" name="Кошак">Кошак<br>
+            <input type="checkbox" name="Анаконда">Анаконда<br>
+            <input type="checkbox" name="Человек">Человек<br>
+            <input type="checkbox" name="Слон">Слон<br>
+            <input type="checkbox" name="Антилопа">Антилопа<br>
+            <input type="checkbox" name="Голубь">Голубь<br>
+            <input type="checkbox" name="Краб">Краб<br>
+
+        </form>
+        </fieldset>
+        <input type="submit" value="Отправить информацию">
