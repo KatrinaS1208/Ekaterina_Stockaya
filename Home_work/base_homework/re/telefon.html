@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <style>
+            #app{
+                display: flex;
+                width: 1000px;
+                margin: 0 auto;
+                flex-flow: wrap;
+                justify-content: space-between;
+    
+            }
+            #app > div{
+                margin-bottom: 20px;
+                transition: 0.5s;
+            }
+            #app > div:hover{
+                transform: scale(1.1);
+                z-index: 999;
+            }
+        </style>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="render()">render telephone</button>
+    <div id="app"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script>
+        var iPhone = [
+            {
+                brand: iPhone,
+                model: 14,
+                year: 2023,
+                imgUrl: https://simka18.ru/image/catalog/14%20pro.jpg
+            },
+            {
+                brand: iPhone,
+                model: 13,
+                year: 2022, 
+                imgUrl: https://cdn.hiconsumption.com/wp-content/uploads/2021/09/Apple-iPhone-13-Pro-0-Hero.jpg
+            },
+            {
+                brand: iPhone,
+                model: 12,
+                year: 2021, 
+                imgUrl: https://cdn.hiconsumption.com/wp-content/uploads/2020/10/Apple-iPhone-12-FB.jpg
+            },
+            {
+                brand: iPhone,
+                model: 11,
+                year: 2020, 
+                imgUrl: https://unblast.com/wp-content/uploads/2019/09/iPhone-11-Pro-Sketch-Mockup-2.jpg
+            }
+        ]
+        var app = document.getElementById("app");
+        function render () {
+            var telephoneHtml = "";}
+
+            for(var i=0; i<telephone.lenght; i++){
+                telephoneHtml+=
+                <div class='card' style="whigth: 18rem;">
+                    <img src="${iPhone[i].imgUrl}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3 class="card-title">${iPhone[i].brand}</h3>
+                        <h4 class="card-title">${iPhone[i].model}</h4>
+                        <h5 class="card-title">${iPhone[i].year}</h5>
+                    }
+
+
+    </script>
+
+
+</body>
+</html>
