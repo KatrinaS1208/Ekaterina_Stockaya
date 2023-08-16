@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+ }
+ 
+ a[href^='http://'] {
+    color: green;
+ }
+ 
+ a:hover {
+    color: red;
+ }
+ 
+ /* стили первого контейнера */
+ table.type1 td {
+    padding: 18px;
+    width: 170px;
+    text-align: center;
+ }
+ 
+ table.type1 td:nth-child(even) {
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+    border-collapse: collapse;
+ }
+ 
+ /* стили второго контейнера */
+ div span {
+    display: inline-block;
+    padding: 18px;
+    width: 170px;
+    text-align: center;
+ }
+ 
+ div span:nth-child(even) {
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+ }
+ 
+ /* стили третьего контейнера */
+ div.type3 li {
+    display: inline-block;
+    width: 170px;
+    padding: 18px;
+    text-align: center;
+    white-space: nowrap;
+ }
+ 
+ div.type3 li:nth-child(even) {
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+ }
+ /* стили четвертого контейнера */
+ div.type4 div{
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    padding: 18px;
+ }
+ 
+ div.type4 div:nth-child(even){
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+ }
+ /* стили пятого контейнера */
+ div.type5 a{
+    display: inline-block;
+    width: 170px;
+    text-align: center;
+    padding: 18px;
+ }
+ 
+ div.type5 a:nth-child(even){
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+ }
