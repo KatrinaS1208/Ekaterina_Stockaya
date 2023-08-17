@@ -1,0 +1,513 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Circe';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 140%;
+  min-width: 1280px;
+}
+
+.wrapper {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+/*Header styles start*/
+.header {
+  margin: 20px 0;
+  font-family: Circe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.header-list {
+  height: 70px;
+  border-bottom: 0px solid rgba(51, 51, 51, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-list-name {
+  width: 220px;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
+.header-list-contacts {
+  width: 813px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Circe;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.header-list img {
+  padding-right: 60px;
+}
+
+.header-list-btn {
+  background-color: #fcfbfb;
+  border: none;
+  padding: 10px 20px;
+  height: 40px;
+  color: #FFF;
+  font-family: Circe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: fit-content;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.header-links {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Circe;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
+.header-links-list {
+  width: 1070px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Header styles end*/
+/*Section1 styles start*/
+.text {
+  background: url(../both-ood-iceland-houses-have-a-hot-tub-at-the-front-overlooking-the-spectacular-scenery-this-makes-the-experience-even-more-surreal-says-ceo-andreas-tiik\ 1.png);
+  background-size: cover;
+  overflow: hidden;
+  width: 1287px;
+  height: 700px;
+  flex-shrink: 0;
+  height: 600px;
+  flex-shrink: 0;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 418px;
+}
+
+.text-btn {
+  color: #FFF;
+  text-align: right;
+  font-family: Open Sans;
+  font-size: 73px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 72px;
+  margin-bottom: 10px;
+  margin-right: 18px;
+  /* 102.857% */
+}
+
+.text-btn1 {
+  width: 440px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 288px;
+    margin-left: 231px;
+  /* 140% */
+}
+
+/*BUTTON*/
+.button{
+  width: 263px;
+  height: 100px;
+  flex-shrink: 0;
+  background: var(--forest, #5B6460);
+  margin-left: 109px;
+  padding-bottom: 19px;
+}
+.button2{
+  width: 120px;
+     height: 100px;
+     flex-shrink: 0;background: var(--rose, #E9ECE0);
+}
+
+
+
+/*Section3 styles end*/
+/*Section4 styles start*/
+.section4 {
+  font-family: Circe;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #333;
+}
+
+.section4-tab {
+  width: 1076px;
+  height: 842px;
+  margin: 0 110px;
+}
+
+.section4-tab-name {
+  background-color: rgba(51, 51, 51, 0.05);
+  height: 48px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 140%;
+  display: flex;
+}
+
+.section4-tab-name-1 {
+  width: 180px;
+  padding: 10px 0 10px 20px;
+}
+
+.section4-tab-name-2 {
+  width: 300px;
+  padding: 10px 0 10px 20px;
+}
+
+.section4-tab-name-3 {
+  width: 596px;
+  padding: 10px 0 10px 20px;
+}
+
+.section4-tab-line {
+  display: flex;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+  padding: 40px 0 30px 0;
+}
+
+.section4-tab-line-column1 {
+  width: 180px;
+  padding: 0 20px 0 20px;
+}
+
+.section4-tab-line-column2 {
+  width: 300px;
+  padding: 0 20px 0 20px;
+}
+
+.section4-tab-line-column3 {
+  width: 596px;
+  padding: 0 20px 0 20px;
+}
+
+.section4-tab-line-column3 span {
+  color: #FFF;
+  background-color: #EC1B2E;
+  padding: 5px 3px 3px 7px;
+}
+
+.section4-tab-line p:nth-child(2) {
+  margin: 18px 0;
+}
+
+.section4-tab-line:last-child {
+  padding-bottom: 0;
+  border: none;
+}
+
+/*Section4 styles end*/
+/*Section5 styles start*/
+.section5-name {
+  font-family: Circe;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: 0.48px;
+  margin: 150px 0 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section5-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section5-contents ul {
+  height: 164px;
+  padding: 0 20px;
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section5-content {
+  width: 306px;
+}
+
+.section5-content-title {
+  text-align: center;
+  font-family: Circe;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  padding: 30px 20px 20px 20px;
+}
+
+.section5-btn {
+  background-color: #EC1B2E;
+  border: none;
+  padding: 15px 30px;
+  height: 58px;
+  color: #FFF;
+  font-family: Circe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: fit-content;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 45px 71px 0 72px;
+}
+
+/*Section5 styles end*/
+/*Section6 styles start*/
+.section6-name {
+  font-family: Circe;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: 0.48px;
+  margin: 150px 0 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section6-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section6-content {
+  width: 416px;
+  height: 539px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section6-content-img1 {
+  background: url(../image/rectangle\ 46.png) no-repeat;
+  width: 416px;
+  height: 250px;
+}
+
+.section6-content-img2 {
+  background: url(../image/rectangle\ 46-1.png) no-repeat;
+  width: 416px;
+  height: 250px;
+}
+
+.section6-content-img3 {
+  background: url(../image/rectangle\ 46-2.png) no-repeat;
+  width: 416px;
+  height: 250px;
+}
+
+.section6-content-title {
+  font-family: Circe;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 15px;
+}
+
+.section6-content-blok {
+  padding: 0 30px;
+}
+
+.section6-content-btn {
+  background-color: #EC1B2E;
+  border: none;
+  padding: 15px 30px;
+  height: 58px;
+  color: #FFF;
+  font-family: Circe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: fit-content;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 0 223px 0 30px;
+}
+
+/*Section6 styles end*/
+/*Section7 styles start*/
+.section7 {
+  margin-bottom: 120px;
+}
+
+.section7-name {
+  font-family: Circe;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%;
+  letter-spacing: 0.48px;
+  margin: 150px 0 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.section7-contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section7-content {
+  width: 306px;
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section7-content-title {
+  font-family: Circe;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 25px;
+}
+
+.section7-content-btn {
+  background-color: #EC1B2E;
+  border: none;
+  padding: 15px 30px;
+  height: 58px;
+  color: #FFF;
+  font-family: Circe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: fit-content;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+/*Section7 styles end*/
+/*Footer styles start*/
+.footer {
+  background-color: rgba(51, 51, 51, 0.05);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+  padding: 60px 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.footer-content-blok {
+  width: 200px;
+}
+
+.footer-content-blok-name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 25px;
+}
+
+.footer-content-blok-name1 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.footer-content-blok-name2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  margin: 40px 0 25px 0;
+}
+
+.footer-content-blok-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.footer-content-blok-connection {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.footer-content-blok:first-child {
+  width: 221px;
+}
+
+.footer-bottom {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Circe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+/*Footer styles end*/
+
+/*# sourceMappingURL=style.css.map */
