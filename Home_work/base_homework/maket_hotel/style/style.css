@@ -149,12 +149,87 @@ body {
   background: var(--forest, #5B6460);
   margin-left: 109px;
   padding-bottom: 19px;
+  color: #f9faf7;
 }
 .button2{
   width: 120px;
      height: 100px;
      flex-shrink: 0;background: var(--rose, #E9ECE0);
 }
+.text3{
+  color: var(--forest, #5B6460);
+font-family: Open Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 100% */
+margin-left: 42px;
+}
+.textp{
+  width: 465px;
+height: 244px;
+flex-shrink: 0;
+color: #000;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 187.5% */
+margin-left: 42px;
+}
+.photo{
+box-sizing: border-box;
+flex-shrink: 0;
+background: cover no-repeat;
+display: flex;
+padding-top: 115px;
+}
+.knop{
+  margin-left: -410px;
+  margin-top: 310px;
+  display: inline-block;
+
+}
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+.karta{
+  width: 1300px;
+    height: 453px;
+flex-shrink: 0;
+background: #353835;
+
+}
+.forest{
+  background: #939491;
+  margin-left: 665px;
+    margin-top: -433px;
+  color: var(--forest, #5B6460);
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100% */
+  float: right;
+  background: #E9ECE0;
+width: 465px;
+height: 244px;
+flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
