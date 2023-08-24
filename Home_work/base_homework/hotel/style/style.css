@@ -1,0 +1,411 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Circe';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 140%;
+  min-width: 1280px;
+}
+
+.wrapper {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+/*Header styles start*/
+.header {
+  margin: 20px 0;
+  font-family: Circe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.header-list {
+  height: 70px;
+  border-bottom: 0px solid rgba(51, 51, 51, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-list-name {
+  width: 220px;
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
+.header-list-contacts {
+  width: 813px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Circe;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.header-list img {
+  padding-right: 60px;
+}
+
+.header-list-btn {
+  background-color: #fcfbfb;
+  border: none;
+  padding: 10px 20px;
+  height: 40px;
+  color: #FFF;
+  font-family: Circe;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  width: fit-content;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.header-links {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Circe;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
+.header-links-list {
+  width: 1070px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Header styles end*/
+/*Section1 styles start*/
+.text {
+  background: url(../both-ood-iceland-houses-have-a-hot-tub-at-the-front-overlooking-the-spectacular-scenery-this-makes-the-experience-even-more-surreal-says-ceo-andreas-tiik\ 1.png);
+  background-size: cover;
+  overflow: hidden;
+  width: 1287px;
+  height: 700px;
+  flex-shrink: 0;
+  height: 600px;
+  flex-shrink: 0;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 418px;
+}
+
+.text-btn {
+  color: #FFF;
+  text-align: right;
+  font-family: Open Sans;
+  font-size: 73px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 72px;
+  margin-bottom: 10px;
+  margin-right: 18px;
+  /* 102.857% */
+}
+
+.text-btn1 {
+  width: 440px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 288px;
+    margin-left: 558px;
+  /* 140% */
+}
+
+/*BUTTON*/
+.button{
+  width: 263px;
+  height: 100px;
+  flex-shrink: 0;
+  background: var(--forest, #5B6460);
+  margin-left: 109px;
+  padding-bottom: 19px;
+  color: #f9faf7;
+}
+.button2{
+  width: 120px;
+     height: 100px;
+     flex-shrink: 0;background: var(--rose, #E9ECE0);
+}
+.text3{
+  color: var(--forest, #5B6460);
+font-family: Open Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 100% */
+margin-left: 42px;
+}
+.textp{
+  width: 465px;
+height: 244px;
+flex-shrink: 0;
+color: #000;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 187.5% */
+margin-left: 42px;
+}
+.photo{
+box-sizing: border-box;
+flex-shrink: 0;
+background: cover no-repeat;
+display: flex;
+padding-top: 115px;
+}
+.knop{
+  margin-left: -410px;
+  margin-top: 310px;
+  display: inline-block;
+
+}
+
+.scale {
+    transition: 1s; /* Время эффекта */
+   }
+   .scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+.karta{
+  width: 1292px;
+    height: 453px;
+flex-shrink: 0;
+background: #353835;
+
+}
+.forest{
+  background: #939491;
+  margin-left: 665px;
+  margin-top: -445px;
+  color: var(--forest, #5B6460);
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 100% */
+  float: right;
+  background: #E9ECE0;
+width: 465px;
+height: 244px;
+flex-shrink: 0;
+}
+.Facilities{
+  background-color: #353835;
+  color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 300;
+line-height: 220px; /* 100% */
+}
+.ul{
+  margin-left: 180px;
+  box-sizing: border-box;
+  display: inline-block;
+width: 829px;
+height: 555px;
+font-size: 20px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+display: inline-block;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.fon{
+  background: url(../cab.png), lightgray 50% / cover no-repeat;
+  width: 643px;
+height: 559px;
+flex-shrink: 0;
+display: inline-flex;
+}
+.fon2{
+ background: url(../uniq.png), lightgray 50% / cover no-repeat;
+width: 649px;
+height: 559px;
+flex-shrink: 0;
+margin-left: 643px;
+}
+
+.krug{
+  margin-bottom: auto;
+    margin-top: auto;
+  border-radius: 100px;
+background: var(--rose, #E9ECE0);
+color: var(--gray-1, #333);
+text-align: center;
+font-family: DIN;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 22px; /* 137.5% */
+}
+
+.last {
+  color: var(--forest, #5B6460);
+  font-family: Open Sans;
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  margin-left: 145px;
+  margin-top: 141px;
+}
+
+.h4{
+  color: #000;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 187.5% */
+
+}
+
+.inst{
+  width: 21px;
+height: 21px;
+flex-shrink: 0;
+display: flex;
+
+}
+
+.end{
+  color: #FFF;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px; /* 187.5% */
+}
+
+.h3{
+  margin-right: -496px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-family: DIN;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.symbol{
+  display: flex;
+  width: 50.409px;
+  height: 50.409px;
+  flex-shrink: 0;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+
+}
+.text2 {
+  background: url(../odd1.png);
+  background-size: cover;
+  overflow: hidden;
+  width: 1291px;
+  height: 700px;
+  flex-shrink: 0;
+  height: 371px;
+  flex-shrink: 0;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 418px;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 70px;
+font-style: normal;
+font-weight: 300;
+line-height: 72px; /* 102.857% */
+}
+
+.button11 {
+    padding: 3px 15px;
+    margin: 15px;
+    cursor: pointer;
+    border: 0px;
+    background-color: #5d5e5d;
+    font-size: 18px;
+    color: #000000;
+    box-shadow: 0 0 5px #f7e8f7;
+    -moz-box-shadow: 0 0 5px #FFFF;
+    -ms-box-shadow: 0 0 5px #FFFF;
+    -o-box-shadow: 0 0 5px #FFFF;
+    -webkit-box-shadow: 0 0 5px #FFFF;
+}
+.button:hover {
+    box-shadow: 0 0 12px #6633FF;
+    -moz-box-shadow: 0 0 12px #6633FF;
+    -o-box-shadow: 0 0 12px #6633FF;
+    -ms-box-shadow: 0 0 12px #6633FF;
+    -webkit-box-shadow: 0 0 12px #6633FF;
+}
+
+.hot{
+  color: var(--forest, #5B6460);
+  float: right;
+font-family: Open Sans;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.hott{
+  color: var(--forest, #5B6460);
+font-family: Open Sans;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-left: 40px;
+}
