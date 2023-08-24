@@ -322,16 +322,18 @@ line-height: 30px; /* 187.5% */
 
 .h3{
   margin-right: -496px;
-    margin-top: 90px;
-    display: flex;
-    justify-content: center;
-    color: #FFF;
-    font-family: DIN;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 24px;
-    text-transform: uppercase;
+  margin-top: 67px
+px
+;
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  font-family: DIN;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
 }
 .symbol{
   display: flex;
